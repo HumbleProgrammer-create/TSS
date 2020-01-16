@@ -1,0 +1,44 @@
+nav{
+	background: #4D1361;
+}
+
+.nav-link{
+	color: white;
+}
+.navbar-brand{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.navbar-toggler{
+	background-color: white;
+	height: 40px;
+	width: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.nav-link{
+	margin-top: 25px;
+}
+.logo-ad{
+	width:0px;
+	height:0px;}
+@media(max-width: 990px){
+	.nav-item{
+		margin-left: 1000px;
+	}
+	.nav-link{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 15px;
+	}
+	.navbar-brand{
+		height: 0px;
+		width: 0px;
+		visibility: hidden;
+	}
+	.logo-ad{
+		width:50px;
+		height:50px;
+	}
+}
