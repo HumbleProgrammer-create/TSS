@@ -4,6 +4,7 @@ nav{
 
 .nav-link{
 	color: white;
+	margin-top: 25px;
 }
 .navbar-brand{
 	padding: 0;
@@ -17,15 +18,16 @@ nav{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-.nav-link{
-	margin-top: 25px;
+.nav-item{
+	width: 25%;
+	text-align: center;
 }
 .logo-ad{
 	width:0px;
 	height:0px;}
 @media(max-width: 990px){
 	.nav-item{
-		margin-left: 1000px;
+		width: 100%;
 	}
 	.nav-link{
 		margin-top: 0px;
