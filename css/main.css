@@ -1,7 +1,33 @@
 nav{
 	background: #4D1361;
 }
-
+.button {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: .3s;
+}
+.button:after {
+  position: absolute;
+  transition: .3s;
+  content: '';
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 3px;
+  background: #f7f7f7;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:hover:after {
+  width: 100%;
+  left: 0;
+}
 .nav-link{
 	color: white;
 	margin-top: 25px;
