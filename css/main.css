@@ -1,6 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*Fonts*/
+@font-face{
+	font-family: RopaSans;
+	src: url("../fonts/RopaSans.ttf") format("truetype");
+	font-style: normal; 
+	font-weight: normal; 
+}
+
 nav{
 	background: #4D1361;
 }
+a:hover{
+	color: #ED6FED;
+}
+
 .button {
   flex: 1 1 auto;
   margin: 10px;
@@ -19,7 +35,7 @@ nav{
   left: 50%;
   bottom: 0;
   height: 3px;
-  background: #f7f7f7;
+  background: #ED6FED;
 }
 .button:hover {
   cursor: pointer;
@@ -45,8 +61,10 @@ nav{
 	margin-bottom: 0px;
 }
 .nav-item{
+	font-size: 1.3vw;
 	width: 25%;
 	text-align: center;
+	font-family: RopaSans;
 }
 .logo-ad{
 	width:0px;
